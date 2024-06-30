@@ -1,0 +1,127 @@
+SDLC and DevOps 
+
+Content
+1.	What is SDLC
+2.	Types of SDLC
+3.	Traditional SDLC
+4.	Problems With Traditional SDLC
+5.	Introduction to DevOps
+6.	Benefits of DevOps to SDLC
+7.	DevOps Culture
+8.	DevOps Lifecycle
+9.	DevOps Practices
+10.	DevOps Roadmap
+
+
+SDLC
+
+Software Development Lifecycle refers to a structured framework that is used to design, build and test quality software products. It is a model that defines the entire process of software development from conception to end-of-life.
+
+SDLC models aim to deliver high quality, maintainable applications that meet the requirements of the user. It shows the plan for each stage of the software development to ensure that every stage meets it goals in a timely and cost-efficient manner.
+
+Each organization follows a different SDLC model that best fits the use case of its products and meet the requirements of its users.
+
+
+Problems With Waterfall Model
+
+•	Software Deployment processes were rigid and slow
+•	Lack of proper communication between teams can lead to difficulties in the release process
+•	Lack of automation can introduce errors due to human errors
+•	Lack of proper synchronization between different environments can cause applications that run properly in one environment to fail in another
+
+
+DevOps Introduction
+
+DevOps Engineering includes practices, strategies, and processes that involve the combination of development and operations activities and tasks to foster a more effective and more efficient application development and delivery process.
+DevOps practices enable software development (dev) and operations (ops) teams to accelerate delivery through automation, collaboration, fast feedback, anp iterative improvement.Stemming from an Agile approach to software development, a DevOps process expands on the cross-functional approach of building and shipping applications in a faster and more iterative manner.
+
+
+Benefits of DevOps
+
+1.	Speed: Innovate quickly to meet changes in customer requirements and market trends. DevOps provides teams with thespeed needed for effective innovation
+
+2.	Collaboration and Communication: Developers and operations teams collaborate closely and share responsibility for the applications and systems they manage
+
+3.	Rapid Delivery: DevOps provides the ability for teams to increase their frequency of releasing changes and new features
+
+4.	Scale: Operate and manage your infrastructure and development processes at scale. Automation and consistency help you manage complex or changing systems efficiently and with reduced risk.
+
+5.	Reliability: DevOps practices involves frequent testing and efficient monitoring of applications and systems to ensure the quality performance
+
+6.	Improved MTTR: Reduce the time required to resolve incidents. With frequent code delivery and proper monitoring, finding the root cause of issues is quicker
+
+
+DevOps Culture
+
+DevOps teams must operate in line with DevOps culture and follow best practices. DevOps culture is characterized by the breaking down of siloed teams teams and fostering better communication and collaboration between development teams and operations teams.
+
+Automation of manual, slow, and repeated tasks creates better operational efficiency. DevOps tool stack helps the team to effectively and quickly operate applications through out the applications lifecycl
+
+
+DevOps Lifecycle
+The DevOps lifecycle consists of a combination of various phases that applications go through in a DevOps team.The DevOps lifecycle is usually represented with an infinity diagram to symbolize that it is acontinuous, iterative process consisting of planning, building, testing, deploying and monitoring.
+The DevOps Lifecycle consists of eight phases
+
+Development:
+1.	Plan: DevOps is an extension of Agile Development which involves fast and iterative project management. It involves breaking down work into smaller tasks
+
+2.	Code: After the planning is done and the project is broken down into smaller parts. different tasks are assigned to developers to write code to build the project
+
+3.	Build: When the coding has been done and approved by the team to meet the requ1rement5,it i5 thee Gempiled to form release artifacts
+
+4.	Test: The release artifacts, before they are integrated with thelive application, it need to grow through a series of tests to make sure there are no bugs and errors
+
+Operations:
+5.	Deploy: In this phase, after all tests are passed, the code is released into thelive environment using a specified automated strategy. Continuous deployment (CD) allows teams to release features frequently.
+
+6.	Operate: This involves all efforts by the operations teams to ensure that the infrastructure stays online to keep supporting the applications deployed on it effectively
+
+7.	Observe: Monitoring the performance of the system to ensure the system resources are adequately utilized and maintaining uptime
+
+8.	Continuous Feedback: DevOps teams should evaluate each release and generate reports to improve future releases. Teams can incorporate customer feedback to improve the next release
+
+
+DevOps Roadmap
+1.	Operating Systems
+2.	Programming
+3.	Networking
+4.	vcs
+5.	Containerization
+6.	Cloud Computing
+7.	Cl/CD
+8.	Container Orchestration
+9.	Infrastructure as Code
+10.	Monitoring and Observability
+
+
+DevOps Practices
+
+These are the various activities that can be implemented in teams adopting a DevOps culture for their IT Delivery.
+
+1.	Continuous Integration
+2.	Continuous Delivery
+3.	Infrastructure as Code
+4.	Microservice Architecture
+5.	Automation
+6.	Monitoring and Observability
+
+
+
+SDLC Models
+1.	Waterfall Model
+2.	Iterative Model
+3.	Agile SDLC
+4.	Rapid Application Development
+5.	V-model
+6.	Spiral SDLC Model
+7.	DevOps SDLC Model
+8.	Incremental SDLC Model
+
+
+
+Tools to install 
+1. Git 
+2. Virtualbox 
+3. VS Code 
+4. Docker
+5. Python 
