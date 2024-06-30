@@ -1,0 +1,189 @@
+Content
+
+1. Programming in DevOps
+2. Programming use-cases in DevOps Engineering
+3. Why Python
+4. Basic syntax
+5. Variables, Data Types
+6. Conditional statement
+7. Loops
+8. Data Structures
+9. Functions
+10. Modules
+11. Important Python Modules for DevOps Automation
+
+Why Python?
+- Great libraries and modules that allow for writing scripts
+- Python scripts can run on both Linux and Windows (as opposed to using Bash or Powershell for scripting)
+- DevOps automation tools like Ansible are written complete;y in Python. You can create custom modules in Ansible that can improve your use of automation in your project.
+- Python has a very diverse and active community of developer bulding and maintaining modules for various kinds of projects; system operations, API operations, Data Analytics, etc.
+Programming is an essential skill in DevOps Engineering. One of the major pillars of DevOps is Automation. Although most automation can be done using DevOps tools and frameworks, 
+automation using programming is an important skill for every DevOps engineer.
+DevOps Engineers may not be required to develop full fledge applications like Software Developers but programming use-cases are present in DevOps.
+
+Programming use-cases in DevOps Engineering
+1. Provisioning and Configuration Management
+2. DevOps Platform Tooling
+3. Cloud Automation
+4. Monitoring, Alerting and Event Driven Operations
+5. Data Engineering and MLOps
+
+Popular Programming Languages in DevOps
+- Go
+- Python
+- R 
+- Bash
+
+Basic syntax
+Comments: Not every part of the program code is meant to be run by the interpreter. You can exclude certain parts of your code like descriptions, instructions, pseudo-code etc., using Comments
+Indentation: In many Languages, code blocks are used to separate different portions of code. within a particular function, class or statement, code blocks are used to wrap code belonging to a particular section. In python, we use indentation to indicate code blocks.
+Python varibles: A variable is a container that is used to store a valud of data.
+Python Data Types: Variables can store data in different data types. Data types indicate that type os value a varible holds and what operations can be performed on it.
+Python Functions: Functions are block of code that is intended to perform a particular operation or a particular task.
+
+
+Variables
+In Python, a variable is created by assigning a value to it.
+
+Examples:
+x=3
+name = Albert
+id - 1294QOFGD
+ 
+Rules for Naming Variables in Python:
+
+•	A variable name must start with a letter or the underscore character
+•	A variable name cannot start with a number
+•	A variable name can only contain alpha-numericcharacters and underscores (A-z, 0-9, and _)
+•	Variable names are case-sensitive (age.Age and AGE are three different variables)
+•	A variable name cannot be any of the Python keywords.
+
+Data Types
+Text Type: str 
+Numeric Type: int, float, complex
+Sequence Types: list, tuple, range
+Mapping Type: descriptions
+Set Types: set, frozenset
+Boolean Types: bool 
+Binary Types: bytes, bytearray, memoryview
+None Type: NoneType
+
+Conditional statements
+if(condition):
+  (action)
+elif(condition):
+  (action)
+else:
+  (action)
+
+Logical Conditions:
+1. Equals: a == b 
+2. NotEquals: a != b
+3. LessThan: a < b
+4. LessThanOrEqual: a <= b
+5. GreaterThan: a > b
+6. GreaterThanOrEqualto: a >= b
+
+Loops 
+- while Loops
+- for loops
+
+i = 1
+while i < 6:
+  print(i)
+  i +=1
+
+for i in range(6):
+  print(i)
+
+
+Functions
+A function is a block of code that is intended to perform a particular operation or a particular task.
+
+Creating a function:
+
+def my_function():
+  print("Welcome to my function!")
+
+Calling a function:
+
+def my_function():
+  print("Welcome to my function!")
+
+my_function()
+
+
+Modules
+A Python Module is a file that contains python code.
+A module can contain functions, classes, python statements etc. to perform various kinds of functions.
+You can write a code in python to solve a problem and reference it in another python code as a module.
+You can also reference (import) another code written by a different developer in you python code using modules.
+Modules, in essence, are python code libraries.
+
+Python comes with built in Modules and has a large community of developer which build and maintain Modules for various use cases
+
+Data Science: Numpy, Pandas, Scikit. 
+System Engineering: sys, platform 
+Web Development: flask, django
+
+Terminolog1es
+Module
+Is the smallest piece of software. A module is a set of methods or functions ready to be used somewhere else.
+
+Package
+Is a collection of modules. The purpose of a package is to gather a number of modules holding the same functional purpose thereby making it easier to include all the related modules at once.
+
+Library
+This is a collections of packages. It's purpose is to offer aset of functionalitiesready to use without worrying about the subsequent packages. So a library is what you include when you want to add some functionality to your code. It does not force any codingstyle on you either.
+
+Framework
+It's a set of libraries. But this time, the framework does not just offer functionalities, but it also provides an architecture for the development work. In other words you don't include a framework. You integrate your code into it. It is the wireframe of the project
+
+
+
+Important Python Modules for DevOps
+1. os Module
+2. subprocess Module 
+3. sys Module
+4. platform Module
+5. psutil Module
+6. JSON Module
+7. logging Module
+8. boto3 Module
+
+OS Module
+The OS module in Python provides functions for interacting with theoperating system.OS comes under Python's standard utility modules. This module provides a portable way of usingoperating system-dependent functionality.
+
+The os• and *os.path* modules include many functions to interact with the1ile system.
+
+Python-OS-Module Functions
+Here we will discuss some important functions of the Python os module:
+
+Handling the Current Working Directory Creating aDirectory
+Listingout Files and Directories with Python DeletingDirectory or Files using Python
+
+os.getcwd()
+os.mkdir()
+os.listdir()
+os.rmdir()
+
+
+subprocessModule
+The Python subprocess module is a tool that allows you to run other programs or commands from your Python code.
+It can be used to open new programs,sencd them data and get results back.
+With the subprocess module, you can obtain the input/outpuU/error pipes as well as the exit codes of various commands and processes.
+
+subprocess.run():
+import subprocess
+result = subprocess.run(["dir"],shell=True,capture_output--True,text=True) 
+print(result.stdout)
+
+p = subprocess.Popen(["python''"--help"], stdout=subprocess.PIPE stderr=subprocess.PIPE,text=True)
+output.errors=p.communicate() 
+print(output)
+
+sys Module 
+The sys Module has various functions that are used to manipulate the Python runtime environment.
+
+sys.version
+sys.path

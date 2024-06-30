@@ -1,0 +1,241 @@
+OS - LINUX PART 1
+
+Process Management
+
+A process is a program or a part of a program that is run on a computer. It is loaded into themain memory, RAM and would need certain computer resources to carry out it's functions such as CPU time and power, files, memory or 1/0 devices.
+
+In a multi-programmingenvironment, the OS would have the job of deciding the order in which processes would have access to the CPU. how much time each process would be allocated for processes. This is know as Process Scheduling
+
+OS Process Management Activities:
+
+•	Create, load, execute, suspend,resume, and terminate processes.
+•	Switch system among multiple processes in main memory. Multi-tasking
+•	Provides communication mechanisms for processes to communicate with each others
+•	Provides synchronization mechanisms to control concurrent access to shared data to keep shared data consistent.
+•	Allocate/de-allocate resources properly to prevent or avoid deadlock situation.
+
+
+File management
+
+File management is one of the most important services of an operating system. A file system is organized into directories for efficient or easy navigation and usage. These directories may contain other directories and other files
+An OS performs the following file management activities:
+File creation and deletion Directory creation and deletion
+The support of primitives for manipulating files and directories
+Mapping files onto secondary storage
+File backup on stable {nonvolatile) storage media
+
+
+Device management
+
+An OS manages device communication via its respective drivers. It provides an abstract level of H/W devices and keep the details from applications to ensure proper use of devices, to prevent errors, and to provide users with convenient and efficient programming environment.
+An OS performs the following 1/0 Device management activities:
+Keeps track of all devices connected to the system. Designates a program responsible for every device known as the Input/Output controller.
+Decide which process gets access to a certain device and for how long. Allocates and Deallocate devices effectively and efficiently
+An OS controls the working of multiple input-output	evices on a computer system
+It processes requests from devices and gives output/feedback back to the device
+
+
+Network Management
+This involves activities necessary for the management of connections between various computer systems connected to each other in a computer network.
+An OS performs the following file management activities:
+
+Network administration
+Network maintenance 
+Network operation 
+Network provisioning 
+Network security 
+Network Monitoring
+
+
+Memory anagemnet 
+The Primary memory or Main memory is made up of a large array of bytes or words where each byte or word is assigned a certain address. The main memory is fast storage and it can be accessed directly by the CPU.
+
+For a program to be executed, it must first beloaded in the main memory. The allocation and deallocation of various processes to the main memory for execution is carried out by the OS. It also ensures that other processes do not consume the memory allocated to one process.
+
+An Operating System performs the following activities for Memory Management:
+
+It keeps track of primary memory, i.e , which bytes of memory are used by which user program.The memory addresses that have already been allocated and the memory addresses of the memory that has not yet been used.
+In multiprogramming, the OS decides the order in which processes are granted memory access, and for how long.
+It Allocates the memory to a process when the process requests it and deallocates the memory when the process has terminated or is performing an 1/0 operation.
+
+
+Storage Management 
+Programs executed on a computer as well as the data they access. must be into the main memory during execution.Due to the fact that the main memory is often too small to permanently accommodate all data and program and to improve effieciency,the computer system must provide secondary storage to backup main memory.
+
+Most modern computer systems use disks as the principle on-line storage medium. for both programs and data. Programs, like compilers, assemblers, sort routines, editors, formatters. and so on, are stored on the disk until loaded into memory, and thenuse the disk as both the source and destination of their processing.
+
+The operating system is responsible for the following activities in connection with
+disk management:
+
+Free space management 
+Storage allocation
+Disk scheduling
+
+
+Other OS functions 
+An Operating System is a complex Software System. Apart from the above mentioned components and responsibilities, there are many other activities performed by the Operating System. Few of them are listed below:
+
+Security - By means of password and similar other techniques, it prevents unauthorized access to programs and data.
+
+Control over system performance - Recording delays between request for a service and response from the system.
+
+Job accounting - Keeping track of time and resources used by various jobs and users.
+
+Error detecting aids - Production of dumps, traces, error messages, and other debugging and error detecting aids.
+
+Coordination between other softwares and users - Coordination and assignment of compilers, interpreters, assemblers and other software to the various users of the computer systems.
+
+
+Types of OS
+
+•	Batch Operating System
+•	Time Sharing Operating System
+•	Distributed Operating System
+•	Network Operating System
+•	Real-time Operating System
+
+
+OS services
+1.	Program Execution
+•	Load Program intomemory
+•	Executes the program.
+•	Handles program's execution.
+•	Provides a mechanism for process synchronization.
+•	Provides a mechanism for process communication.
+•	Provides a mechanism for deadlock handling.
+
+2.	I/O Operation:
+•	Prov des access to files when required
+•	Handles read and write operations
+
+3.	File system manipulation:
+•	Program needs to read a file or write a file.
+•	The operating system gives the permission to the program for operation on file.
+•	Permission varies from read-only, read-write. denied and so on.
+•	Operating System provides an interface to the user to create/delete files.
+•	Operating System provides an interface to the user to create/delete directories.
+•	Operating System provides an interface to create the backup of file system.
+
+4.	Communication
+•	Two processes oftenrequire data to be transferred between them
+•	Both the processes can be on one computer or on different computers, but are connected through acomputer network.
+•	Communication may be implemented either by Shared Memory or by Message Passing.
+
+5.	Error handling:
+•	The OS constantly checks for possible errors.
+•	The OS takes an appropriate action to ensure correct and consistent computing.
+
+6.	Resource Management:
+•	The OSmanages all kinds of resources using schedulers.
+•	CPU scheduling algorithms are used for better utilization of CPU.
+
+. Protection:
+•	The OS ensures that all access to system resources is controlled.
+•	The OS ensures that external 1/0 devices are protected from invalid access attempts.
+•	The OSprovides authentication features for each user by means of passwords.
+
+
+Linux Operating System
+Linux is an open-source operating system created by Linus Torvalds in 1991. It was designed to be like Linux. but due to its vibrant community and popularity, Linux has grown into avery powerful and popular operating system with so many flavors and distributions.It is used today in various hardware devices, computers, supercomputers, phones, loT devices. and so many more machines.
+
+Linux is made up of three major components:
+The Kernel: This is the base component of the Linux operating system which is essential for ts 7..mctioning. It manages system resources such as memory, process, and file management and also communicates with thehardware
+System User Space: This is the component where system-level tasks like software installs and configurations are performed. It includes the shell.command-line, daemons and processes that run in the background
+Applications: These include all the software installed on the operating system for performing various tasks and functions.
+
+Popular Linux Distros:
+Ubuntu, 
+Debian centOS. 
+RHEL Fedora.openSUSE
+
+
+Linux Operating Sysytem Architecture
+
+Kernel: Kernel is the core of the Linux based operating system. It virtualizes the common hardware resources of the computer to provide each process with its virtual resources. This makes the process seem as if it is the sole process running on the machine. The kernel is also responsible for preventing and mitigating conflicts between different processes.
+
+System library:Linux uses system libraries, also known as shared libraries, to implement various functionalities of the operating system. These libraries contain pre-written code that applications can use to perform specific tasks. By using these librar es. developers can save time and effort.as they don t need to write thesame code repeatedly. System libraries act as an interface between applications and the kernel, providing a standardized and efficient way for applications to interact with theunderlying system.
+
+Shell:The shell is the user interface of the Linux Operating System. It allows users to interact with thesystem by entering commands, which the shell interprets and executes. The shell serves as a bridge between the user and the kernel, forwarding the user's requests to the kernel for processing. It provides a convenient way for users to perform
+various tasks, such as running programs, managing files, and configuring the system.
+
+Hardware Layer: The hardware layer encompasses all the physical components of the computer, such as RAM (Random Access Memory), HOD (Hard Disk Drive), CPU (Central Processing Unit), and input/output devices.This layer is responsible for interacting with theLinux Operating System and providing the necessary resources for the system and applications to function properly. The Linux kernel and system libraries enable communication and control over these hardware components. ensuring that they work harmoniously together.
+
+System Utility: System utilities are essential tools and programs provided by the Linux Operating S) stem to manage and configure various aspects of the system. These utilities perform tasks such as installing software, configuring network settings,monitoring system performance, managing users and permissions, and much more.System utilities simplify system administration tasks, making it easier for users to maintain their Linux systems efficiently.
+
+
+Linux distributions 
+Linux distribution is an operating system that ismade up of a collection of software based on Linux kernel or you can say distribution contains the Linux kernel and supporting libraries and software. And you can get Linux based operating system by downloading one of the Linux distributions and these distributions are available for different types of devices like embedded devices, personal computers, etc.
+
+Around 600 + Linux Distributions are available and some of the popular Linux distributions are:
+
+ 
+MX Linux 
+Manjaro 
+Linux Mint 
+elementary 
+Ubuntu 
+Debian 
+Solus 
+Fedora 
+openSUSE
+ 
+
+RHEL
+Kali 
+Linux 
+Parrot OS
+CentOS (approaching EOL) 
+Alpine
+BlackArch 
+Raspberry Pl OS 
+Amazon Linux 2
+
+
+
+Basic Linux Commands
+
+The most common way of interacting with a Linux system is 
+using the command line or shell. Linux has a set of commands 
+that are used to communicate with the kernel to perform actions 
+on the system such as managing flies, managing processes, 
+handling system and application configurations and so much more
+
+•	who
+•	pwd
+•	mkdir
+•	touch
+•	Is
+•	cd
+ 
+•	rm/rmdir
+•	cp
+•	mv
+•	chmod/chown
+•	man
+•	history
+
+
+Linux File System 
+A file system is collection on files which are located on the partition 
+of a disk.The Linux file system in an important tool for managing, 
+strong and retrieving the data on the disk effectively.
+
+ 
+File Directories in Linux:
+•	/boot: contains boot loader files
+•	/etc:configuration files
+•	/home: user home directory
+•	/root: root home directory
+•	/opt: third party applications
+•	/dev: device files
+•	/var: variable files
+•	/usr: user applications
+•	/bin:user binaries
+•	/sbin: system binaries
+•	/proc: process information
+•	/mnt: mount directories
+•	/sys: virtual file system
+•	/media: removable devices
+•	kun:temporary file system
+•	/tmp: temporary files
+•	/lib: system library

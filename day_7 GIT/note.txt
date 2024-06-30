@@ -1,0 +1,90 @@
+Git
+
+Content
+1. What is Version control
+2. Why is Version Control and SCM important
+3. Types of VCS or SCM systems 
+4. Git
+5. What is Git
+6. Git platform
+7. Git Concepts 
+8. Git Commands 
+
+
+Version Control Systems
+
+Version Control Systems are software that can track and manage changes to files and other digital assets.They enable teams of multiple developers work simultaneously and prevent loss of data.
+
+Version Control Systems are sometimes referred to as Source Code Management systems.
+
+Source Code Management enables software teams to IT resources (code and configurations) and keep records of the changes made to theses resources overtime, offering the ability to see the difference between two versions and rollback to a previous version.
+
+
+
+Why do we need VCS
+Maintaining acode base is relatively easy when workingwith just on developer or software engineer. When working witha team of engineers, it becomes more difficult to keep track of all the changes made by various developers and hold a single source of truth (the main, workingcode).
+
+Problems that VCS can solve:
+Data inconsistency (Overwriting the code of other developers) Change conflicts
+Breakingdown velocity and speed of development Reduced System and Code Maintainability
+
+
+Types of VCS
+Problems that VCS can solve:
+Local VCS: This maintains the versions and changes to fileson your local system. It stores the changes as patches on a local databases in your computer where every patch contains the changes made since the last version.
+
+Centralized VCS: All fileversions are contained on a single server. Various developer canaccess this server, pull the files to their local system or push files for local to the remote central VCS server. Examples of this kindof VCS; Microsoft TFS, Apache SVN
+
+Distributed VCS: With distributed version control systems, developers maintain a fullmirror of the remote repository on their local workstation or computersinstead of simply checking out the latest snapshot of the files from the server.This way, everyone collaborating on a project owns a local copy of the entire project, i.e.owns their ownlocal database with their own complete history
+
+
+Git 
+Git is a version control system 
+It is created by Linus Torvalds in 2005, and has been maintained by Junio Hamano since then. 
+
+Remember Linus Torvalds 
+Linus - 1991
+Git - 2005
+
+
+Git Platforms 
+1. Github 
+2. GitLab 
+3. Bitbucket 
+4. Azure Repos 
+5. AWS CodeCommit
+
+
+Git Concept
+1.	Branch: A parallel version of the code within a Git repository, allowingfor separate development and experimentation.
+
+2.	Pull/Push: The process of uploading changes fromalocal to remote repository (pushing) or downloading changes from aremote repository to a local repository (pulling)
+
+3.	Clone/Fork:
+When you fork a Repo,you are creatingan independent copy of it on a hosting platform likeGitHub.The forked repo canbemodified independently of the original.
+
+When youclone arepository, youcreate an exact replica of the entire repository, including its entire history, branches, and commits on your local machine.
+
+4.	Merge: Theprocess of combiningchanges fromone branch intoanother
+
+5.	Pull Request: A request made by a developer to merge their changes intoanother branch, often used for code review.
+
+6.	Cl/CD: Automating the process of building, testing, anddeployingcode changes. Usually done after code has been merged intothemain (or master) branch
+
+
+Git Commands
+1. git branch 
+2. git checkout 
+3. git status 
+4. git add 
+5. git commit 
+6. git pull 
+7. git push
+8. git logs 
+9. git init 
+10. git config 
+11. git merge 
+12. git remote 
+13. git reset 
+14. git revert
+15. git fetch
